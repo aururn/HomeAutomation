@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home automation Project Webpage</title>
+        <link rel="stylesheet" href="style,css">
+    </head>
+
+    <body>
+        <h1>Control Raspberry Pi</h1>
+         <p>By pressing the button on this page, you can remotely control the home appliances</p>
+
+        <form method="POST" action="send_data.sh">
+            <center>
+                <div class="pinbox">
+                    <b>GPIO2</b>
+                    <button class="send-btn" type="submit" name="btn" value="2 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="2 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO3</b>
+                    <button class="send-btn" type="submit" name="btn" value="3 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="3 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO4</b>
+                    <button class="send-btn" type="submit" name="btn" value="4 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="4 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO5</b>
+                    <button class="send-btn" type="submit" name="btn" value="5 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="5 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO6</b>
+                    <button class="send-btn" type="submit" name="btn" value="6 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="6 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO7</b>
+                    <button class="send-btn" type="submit" name="btn" value="7 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="7 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO8</b>
+                    <button class="send-btn" type="submit" name="btn" value="8 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="8 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO9</b>
+                    <button class="send-btn" type="submit" name="btn" value="9 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="9 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO10</b>
+                    <button class="send-btn" type="submit" name="btn" value="10 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="10 0">OFF</button>
+                </div><br>
+
+                <div class="pinbox">
+                    <b>GPIO11</b>
+                    <button class="send-btn" type="submit" name="btn" value="11 1">ON</button>
+                    <button class="send-btn" type="submit" name="btn" value="11 0">OFF</button>
+                </div><br>
+        </form>
+    </body>
+</html>
